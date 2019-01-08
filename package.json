@@ -1,0 +1,43 @@
+{
+  "name": "Weather",
+  "version": "1.0.0",
+  "description": "This is single page application which gets weather information for a city and shows it for next 5 days.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AIVVV/Weather-SPA.git"
+  },
+  "author": "Angel Ivanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AIVVV/Weather-SPA/issues"
+  },
+  "homepage": "https://github.com/AIVVV/Weather-SPA#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-sass": "^4.0.2",
+    "gulp-watch": "^4.3.11",
+    "merge-stream": "^1.0.1",
+    "normalize-scss": "^7.0.0",
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "handlebars": "^4.0.10",
+    "jquery": "^3.2.1",
+    "material-design-lite": "^1.3.0",
+    "save-dev": "^2.0.0"
+  }
+}
